@@ -22,7 +22,7 @@ span + span, img + span{
 
 button{
     padding: 10px;
-    background-color: blue;
+    background-color: #0061FF;
     color: white;
     border: none;
 }
@@ -41,6 +41,7 @@ button{
 .title{
     font-size: 2.5em;
     margin-bottom: 30px;
+    padding-top: 50px;
 }
 
 .text-jumbo{
@@ -60,3 +61,67 @@ button{
     font-size: 2.0em;
     margin-bottom: 10px;
 }
+
+/* Main section */
+
+main{
+    padding-top: 100px;
+}
+
+main > div > h2,
+main > div > input{
+    margin-bottom: 40px;
+}
+
+main > div > h2{
+    font-size: 2.0em;
+}
+
+.column > div{
+    flex-basis: 30%;
+    border: 1px solid lightgray;
+}
+
+.rectangle{
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+
+.padding{
+    padding: 30px 20px;
+}
+.column li{
+    list-style: none inside;
+}
+
+.big-btn{
+    width: 100%;
+}
+
+.align-txt-center{
+    text-align: center;
+}
+
+.column > div > hr{
+    width: 60px;
+    margin-left: 20px;
+}
+
+.fa-check{
+    color: #0061FF;
+}
+
+.border{
+    border: 1px solid lightgray;
+    margin-top: 50px;
+}
+
+.container-enterprise{
+    flex-basis: 78%;
+}
+
+.container-btn{
+    flex-basis: 20%;
+    margin: 30px 20px 0 0;
+}
+
