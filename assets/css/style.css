@@ -125,3 +125,49 @@ main > div > h2{
     margin: 30px 20px 0 0;
 }
 
+/* Sezione intermedia(partner) */
+
+.intermediate{
+    margin: 100px auto;
+}
+
+.intermediate > div{
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+.intermediate div:last-child{
+    padding-left: 80px;
+}
+
+.intermediate > div > img{
+    width: 100%;
+}
+
+#partner-btn{
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+}
+
+/* Sezione card explain */
+
+.card{
+    margin-bottom: 100px;
+}
+
+.card > h2{
+    margin-bottom: 60px;
+    font-size: 1.8em;
+}
+
+.card > div{
+    display: inline-block;
+    width: calc(88% / 3);
+    margin: 0 15px 15px 15px;
+}
+
+.card > div > img{
+    width: 100%;
+}
