@@ -8,12 +8,25 @@
 
 header{
     height: 70px;
-    padding-top: 15px;
+    padding: 15px 20px 0 20px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .flex-row{
     display: flex;
     justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 span + span, img + span{
@@ -33,7 +46,17 @@ button{
     background-color: #B3CFE7;
 }
 
-.content-center{
+#top-container{
+    position: relative;
+    top: 50px;
+}
+
+.content-center-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content-center-60{
     width: 60%;
     margin: 0 auto;
 }
@@ -50,11 +73,11 @@ button{
 
 .jumbo{
      flex-basis: 70%;
-} 
+}
+
 
 .jumbo > img{
-    width: 110%;
-    margin-bottom: -50px;
+    width: 100%;
 }
 
 .text-jumbo > i{
@@ -153,7 +176,7 @@ main > div > h2{
 
 /* Sezione card explain */
 
-.card{
+.card, .social-proof{
     margin-bottom: 100px;
 }
 
@@ -171,3 +194,82 @@ main > div > h2{
 .card > div > img{
     width: 100%;
 }
+
+/* Contenitori colorati */
+
+.container-square{
+    width: 100%;
+}
+
+.square{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.square-little{
+    width: 50%;
+    height: 50%;
+    background-size:  8em;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.green{
+    background-color: #A2D49B;
+    background-image: url("../img/designit.svg");
+}
+
+.brown{
+    background-color: #61082b;
+    background-image: url("../img/arizona_state_university.svg");
+}
+
+.light-blu{
+    background-color: #0093CE;
+    background-image: url("../img/university_of_florida.svg");
+}
+
+.red{
+    background-color: #FF1C1C;
+    background-image: url("../img/topps.svg");
+}
+
+.darkred{
+    background-color: #D4001F;
+    background-image: url("../img/world_bicycle_relief.svg");
+}
+
+.azure{
+    background-color: #B3CFE7;
+    background-image: url("../img/hearst_corp.svg");
+}
+
+.blu{
+    background-color: #0D2481;
+    background-image: url("../img/lonely_planet.svg");
+}
+
+.yellow{
+    background-color: #FFD730;
+    background-image: url("../img/clear_channel.svg");
+}
+
+.big-square > img{
+    width: 40%;
+    padding: 40px 0 0 20px;
+}
+
+.big-square > hr{
+    width: 80px;
+    margin: 50px 0px 50px 20px;
+    color: grey;
+}
+
+.big-square{
+    background-color: #F5F5F5;
+    overflow: auto;
+}
+
+
+
+
