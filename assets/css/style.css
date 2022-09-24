@@ -42,7 +42,7 @@ button{
 
 /* Prima section */
 
-#uvp-section{
+#uvp-section, #cta{
     background-color: #B3CFE7;
 }
 
@@ -74,7 +74,6 @@ button{
 .jumbo{
      flex-basis: 70%;
 }
-
 
 .jumbo > img{
     width: 100%;
@@ -154,13 +153,15 @@ main > div > h2{
     margin: 100px auto;
 }
 
-.intermediate > div{
+.intermediate > div,
+.cta > div{
     display: inline-block;
     width: 49%;
     vertical-align: middle;
 }
 
-.intermediate div:last-child{
+.intermediate div:last-child,
+.cta div:last-child{
     padding-left: 80px;
 }
 
@@ -268,6 +269,26 @@ main > div > h2{
 .big-square{
     background-color: #F5F5F5;
     overflow: auto;
+}
+
+.cta > div > h1{
+    color: rgb(97, 8, 50);
+    font-size: 2.0em;
+}
+
+#cta, #faq{
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+/* Sezione FAQ */
+
+#faq > div > h4,h1{
+    padding: 30px 0;
+}
+
+#faq > .flex-row{
+    align-items: center;
 }
 
 
