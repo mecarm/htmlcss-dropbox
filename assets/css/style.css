@@ -36,11 +36,21 @@ span + span, img + span{
     margin: 0 10px;
 }
 
+nav > div > span:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
 button{
     padding: 10px;
     background-color: #0061FF;
     color: white;
     border: none;
+}
+
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
 }
 
 /* Prima section */
