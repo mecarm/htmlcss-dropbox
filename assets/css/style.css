@@ -235,6 +235,7 @@ main > div > h2{
 .green{
     background-color: #A2D49B;
     background-image: url("../img/designit.svg");
+    border: 15px solid rgba(255, 255, 255, 0.363);
 }
 
 .brown{
